@@ -20,6 +20,8 @@ https://github.com/gatha-AUN/1-Basic-Introduction/blob/master/Jupyter%20Notebook
 https://github.com/gatha-AUN/2-Data-Preprocessing/blob/master/Jupyter%20Notebooks/EDA_using_Pandas.ipynb
 
     3. Read the given CSV file (top50.csv) using Pandas. 
+    spotify_ranks = pd.read_csv('./top50.csv', sep=',',encoding='ISO-8859-1', quotechar='"')
+
         1. Print the Names and Types of the columns using Pandas built-in function.
         2. Print the statistical summary of the dataset.
         3. Plot a histogram of attribute Popularity.
